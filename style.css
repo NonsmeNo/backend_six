@@ -1,0 +1,224 @@
+body {
+    font-family: Verdana;
+    background: -webkit-linear-gradient(90deg,#11088a,#6254e4,#9375f0,#4084fe, #c465d9); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#11088a,#6254e4,#9375f0,#4084fe, #c465d9);
+}
+
+.form1 {
+    border-radius: 10px;
+    color: #000000;
+    font-weight: bold;
+
+    border: 1px solid rgb(255, 255, 255);
+    margin: 50px auto 100px auto;
+    max-width: 600px;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+}
+
+.form1 h2 {
+    margin: 40px auto 10px auto;
+    text-align: center;
+
+}
+
+.form1 .fields {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin: 10px 40px;
+}
+
+.form1 .inlblock {
+    display: flex;
+    flex-direction: row;
+}
+
+.form1 .colblock {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px 70px 20px 70px;
+
+}
+
+.form1 button {
+    height: 100vh;  
+    overflow-y: hidden;
+    background: -webkit-linear-gradient(90deg,#11088a,#6254e4,#9375f0,#4084fe, #c465d9);
+    background: linear-gradient(90deg,#11088a,#6254e4,#9375f0,#4084fe, #c465d9);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 10px auto 40px auto;
+    font-size: 20px;
+}
+
+.form1 .сheck {
+    margin: 0px 40px 20px 40px;
+}
+
+.form1 button:hover {
+    opacity: 0.9;
+}
+.form1 .fields input {
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.form1 .fields textarea {
+    resize: none;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.form1 .birth{
+    margin-bottom: 30px;   
+}
+
+.form1 .birth input {
+    margin-top: 10px;
+    width:130px;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.form1 .rad {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.form1 .rad label{
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.form1 .gender {
+
+    margin-bottom: 10px;
+}
+
+.form1 .changeGen{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    
+}
+
+.form1 .powers select {
+    margin-top: 10px;
+    width:200px;
+    height: 60px;
+    font-size: 14px;
+    color: rgb(0, 0, 0)
+}
+
+.form1 .superpowers {
+    margin-top: 30px;
+
+}
+
+.form1 .check {
+    margin-bottom: 30px;
+    
+
+}
+
+.error {
+    border: 5px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+    max-width: 500px;
+    margin: 5px auto 10px auto;
+}
+
+#messages {
+    margin: 50px auto 0 auto;
+}
+.saves {
+    border: 5px solid #66ff00;
+    background-color: #66ff00;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+
+    border-radius: 5px;
+    color: rgb(18, 124, 14);
+    font-size: 18px;
+    text-align: center;
+
+    max-width: 500px;
+    margin: 5px auto 10px auto;
+}
+
+.collogin {
+    border: 5px solid #e4289c;
+    background-color: #e4289c;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+
+    max-width: 500px;
+    margin: 50px auto 10px auto;
+}
+
+.collogin a {
+    color: #000000;
+    text-decoration:none;
+    font-size: 30px;
+}
+.collogin a:hover {
+    text-decoration:underline;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+}
+.form2 button {
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    background-color: #e4289c;
+    border: 5px solid #e4289c;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+    height: 50px;
+    margin: 10px auto;
+
+
+
+}
