@@ -28,8 +28,11 @@ CREATE TABLE users_5 (
   password varchar(128) NOT NULL DEFAULT ''
 );
 
+CREATE TABLE admin (
+  id int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  login varchar(128) NOT NULL DEFAULT '',
+  password varchar(128) NOT NULL DEFAULT ''
+);
 
-DROP TABLE users_5;
-DROP TABLE application_ability_5;
-DROP TABLE ability_5;
-DROP TABLE application_5;
+INSERT INTO admin (login, password)
+      VALUES ('admin', '$2y$10$zHT95yunlVFjuwjjM4jEnuJDt/BRumHbLYyhEKQqwadG7LvO6Jjum');

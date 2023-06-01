@@ -9,9 +9,7 @@
  **/
 
 header('Content-Type: text/html; charset=UTF-8');
-$db = new PDO('mysql:host=localhost;dbname=u52945', 'u52945', '3219665',
-  [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
-
+include('functions.php');
 
 // Начинаем сессию.
 session_start();

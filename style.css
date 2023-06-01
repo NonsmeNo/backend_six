@@ -218,7 +218,11 @@ body {
     box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
     height: 50px;
     margin: 10px auto;
-
-
-
 }
+
+.form_admin {
+    background-color: rgba(39,47,51, 0.5);
+    border-radius: 10px;
+    border: 1px solid rgba(39,47,51, 0.5);
+}
+
